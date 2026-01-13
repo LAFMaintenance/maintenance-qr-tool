@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+            <div class="main-content" id="radio-buttons-size">
+                <form>
+                    <input type="radio" id="small" name="valid_sizes" value="Small">
+                    <label id="small">Small</label><br>
+                    <input type="radio" id="medium" name="valid_sizes" value="Medium">
+                    <label id="medium">Medium</label><br>
+                    <input type="radio" id="large" name="valid_sizes" value="Large">
+                    <label id="large">Large</label><br>
+                </form>
+            </div>
+            <div class="main-content" id="drop-down-type">
+                <form>
+                    <select id="type" name="document_type">
+                        <option value="manual">Manual</option>
+                        <option value="operator_instructions">Operator Instructions</option>
+                        <option value="schematics">Schematics</option>
+                        <option value="parts_list">Parts List</option>
+                        <option value="website">Website</option>
+                        <option value="common_issues">Common Issues</option>
+                    </select>
+                </form> 
+            </div>
+            <div class="main-content" name="url-input">
+                <label for="url">URL</label>
+                <input type="text" id="url" name="url"><br>
+            </div>
+            <div class="main-content" name="asset-input">
+                <label for="asset_input">Asset Name</label>
+                <input type="text" id="asset_input" name="asset_input"><br>
+            </div>
+            <div class="main-content" name="generate-button">
+                <form method="POST" action="/generate">
+                    <input type="submit" value="Generate">
+                </form>
+            </div>
+    </body>
+</html>
