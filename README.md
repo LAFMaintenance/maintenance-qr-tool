@@ -19,7 +19,10 @@ flask
 qrcode
 pillow
 
+1-14-2026 
 Updated the index.html and style.css to make the UI look better
 Since the application is made for Flex Technologies Inc using their time and resources I've also added the below copyright.
+Added default values to help defend against bad inputs
+Aligned items to something that felt more pleasing to my eyes.
 
 Copyright (c) 2026 Flex Technologies Inc. All rights reserved. Internal use only.
