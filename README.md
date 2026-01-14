@@ -18,3 +18,8 @@ Requires:
 flask
 qrcode
 pillow
+
+Updated the index.html and style.css to make the UI look better
+Since the application is made for Flex Technologies Inc using their time and resources I've also added the below copyright.
+
+Copyright (c) 2026 Flex Technologies Inc. All rights reserved. Internal use only.
