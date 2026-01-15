@@ -25,4 +25,8 @@ Since the application is made for Flex Technologies Inc using their time and res
 Added default values to help defend against bad inputs
 Aligned items to something that felt more pleasing to my eyes.
 
+1-15-2026
+Updated the application so it would give a preview of the saved QR Code and centered it so it was easier on the eyes.
+
+
 Copyright (c) 2026 Flex Technologies Inc. All rights reserved. Internal use only.
